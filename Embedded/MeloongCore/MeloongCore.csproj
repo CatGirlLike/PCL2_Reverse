@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>MeloongCore</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\..\.tools\embedded\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="ThrottleDebounce">
+      <HintPath>..\..\..\..\.tools\embedded\ThrottleDebounce.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Registry">
+      <HintPath>..\..\..\..\.tools\embedded\Microsoft.Win32.Registry.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

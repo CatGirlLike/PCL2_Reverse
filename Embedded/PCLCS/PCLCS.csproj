@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>PCLCS</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net48</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Launch.JavaWrapper.jar" />
+    <None Remove="Launch.LwjglUnsafeAgent.jar" />
+    <None Remove="Resource.WikiEntries.txt" />
+    <None Remove="Minecraft.OptiFineHashes.json" />
+    <EmbeddedResource Include="Launch.JavaWrapper.jar" LogicalName="Launch\JavaWrapper.jar" />
+    <EmbeddedResource Include="Launch.LwjglUnsafeAgent.jar" LogicalName="Launch\LwjglUnsafeAgent.jar" />
+    <EmbeddedResource Include="Resource.WikiEntries.txt" LogicalName="Resource\WikiEntries.txt" />
+    <EmbeddedResource Include="Minecraft.OptiFineHashes.json" LogicalName="Minecraft\OptiFineHashes.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MeloongCore">
+      <HintPath>..\..\..\..\.tools\embedded\MeloongCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\..\.tools\embedded\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+  </ItemGroup>
+</Project>

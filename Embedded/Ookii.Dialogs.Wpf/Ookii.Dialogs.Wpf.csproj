@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Ookii.Dialogs.Wpf</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <UseWPF>True</UseWPF>
+    <TargetFramework>net462</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Ookii.Dialogs.XPThemes.manifest" />
+    <None Remove="Ookii.Dialogs.Wpf.CredentialDialog.bmp" />
+    <None Remove="Ookii.Dialogs.Wpf.ProgressDialog.bmp" />
+    <None Remove="Ookii.Dialogs.Wpf.TaskDialog.bmp" />
+    <None Remove="Ookii.Dialogs.Wpf.VistaFolderBrowserDialog.bmp" />
+    <None Remove="Ookii.Dialogs.Wpf.VistaOpenFileDialog.bmp" />
+    <None Remove="Ookii.Dialogs.Wpf.VistaSaveFileDialog.bmp" />
+    <EmbeddedResource Include="Ookii.Dialogs.XPThemes.manifest" LogicalName="Ookii.Dialogs.XPThemes.manifest" />
+    <EmbeddedResource Include="Ookii.Dialogs.Wpf.CredentialDialog.bmp" LogicalName="Ookii.Dialogs.Wpf.CredentialDialog.bmp" />
+    <EmbeddedResource Include="Ookii.Dialogs.Wpf.ProgressDialog.bmp" LogicalName="Ookii.Dialogs.Wpf.ProgressDialog.bmp" />
+    <EmbeddedResource Include="Ookii.Dialogs.Wpf.TaskDialog.bmp" LogicalName="Ookii.Dialogs.Wpf.TaskDialog.bmp" />
+    <EmbeddedResource Include="Ookii.Dialogs.Wpf.VistaFolderBrowserDialog.bmp" LogicalName="Ookii.Dialogs.Wpf.VistaFolderBrowserDialog.bmp" />
+    <EmbeddedResource Include="Ookii.Dialogs.Wpf.VistaOpenFileDialog.bmp" LogicalName="Ookii.Dialogs.Wpf.VistaOpenFileDialog.bmp" />
+    <EmbeddedResource Include="Ookii.Dialogs.Wpf.VistaSaveFileDialog.bmp" LogicalName="Ookii.Dialogs.Wpf.VistaSaveFileDialog.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Design" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+</Project>

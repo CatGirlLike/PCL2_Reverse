@@ -1,0 +1,265 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Plain Craft Launcher 2</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWPF>True</UseWPF>
+    <TargetFramework>net48</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="images\heads\ltcat.jpg" />
+    <None Remove="controls\mybutton.baml" />
+    <None Remove="images\skins\kai.png" />
+    <None Remove="controls\mymsg\mymsgtext.baml" />
+    <None Remove="controls\mylistitem.baml" />
+    <None Remove="images\blocks\egg.png" />
+    <None Remove="images\blocks\grasspath.png" />
+    <None Remove="pages\pagespeedright.baml" />
+    <None Remove="pages\pagelaunch\pageloginnide.baml" />
+    <None Remove="pages\pageinstance\pageinstancemod.baml" />
+    <None Remove="controls\myextrabutton.baml" />
+    <None Remove="images\icons\noicon.png" />
+    <None Remove="controls\myradiobutton.baml" />
+    <None Remove="pages\pageother\pageotherhelp.baml" />
+    <None Remove="images\releasetypes\alpha.png" />
+    <None Remove="images\themes\6.png" />
+    <None Remove="images\themes\7.png" />
+    <None Remove="images\themes\5.png" />
+    <None Remove="images\themes\8.png" />
+    <None Remove="images\themes\9.png" />
+    <None Remove="images\blocks\fabric.png" />
+    <None Remove="images\skins\steve.png" />
+    <None Remove="pages\pageother\pageothertest.baml" />
+    <None Remove="pages\pageinstance\pageinstanceoverall.baml" />
+    <None Remove="images\heads\mcbbs.png" />
+    <None Remove="images\blocks\grass.png" />
+    <None Remove="controls\myextratextbutton.baml" />
+    <None Remove="pages\pagelaunch\pageloginmsskin.baml" />
+    <None Remove="pages\pagelaunch\myskin.baml" />
+    <None Remove="pages\pagesetup\pagesetupui.baml" />
+    <None Remove="images\blocks\redstonelampoff.png" />
+    <None Remove="images\heads\bangbang93.png" />
+    <None Remove="images\releasetypes\beta.png" />
+    <None Remove="pages\pagesetup\pagesetupleft.baml" />
+    <None Remove="formmain.baml" />
+    <None Remove="pages\pagedownload\resource\pagedownloadcompdetail.baml" />
+    <None Remove="images\heads\easytier.png" />
+    <None Remove="pages\pagedownload\pagedownloadinstall.baml" />
+    <None Remove="controls\mysearchbox.baml" />
+    <None Remove="pages\pageinstance\mylocalmoditem.baml" />
+    <None Remove="images\blocks\optifabric.png" />
+    <None Remove="images\blocks\neoforge.png" />
+    <None Remove="resources\font.ttf" />
+    <None Remove="images\releasetypes\release.png" />
+    <None Remove="pages\pagelaunch\pagelaunchleft.baml" />
+    <None Remove="pages\pageother\pageotherleft.baml" />
+    <None Remove="images\skins\sunny.png" />
+    <None Remove="controls\myicontextbutton.baml" />
+    <None Remove="pages\pagelaunch\pageloginauthskin.baml" />
+    <None Remove="pages\pagesetup\pagesetuplaunch.baml" />
+    <None Remove="pages\pageinstance\pageinstancemoddisabled.baml" />
+    <None Remove="pages\pagespeedleft.baml" />
+    <None Remove="controls\myhint.baml" />
+    <None Remove="controls\mycheckbox.baml" />
+    <None Remove="pages\pageinstance\pageinstanceexport.baml" />
+    <None Remove="controls\myiconbutton.baml" />
+    <None Remove="images\blocks\redstonelampon.png" />
+    <None Remove="pages\pageselectleft.baml" />
+    <None Remove="images\blocks\commandblock.png" />
+    <None Remove="controls\myslider.baml" />
+    <None Remove="pages\pageother\pageotherhelpdetail.baml" />
+    <None Remove="pages\pagelaunch\pageloginms.baml" />
+    <None Remove="images\skins\noor.png" />
+    <None Remove="images\heads\chongqing.png" />
+    <None Remove="images\blocks\goldblock.png" />
+    <None Remove="controls\myloading.baml" />
+    <None Remove="pages\pagedownload\resource\myresourceitem.baml" />
+    <None Remove="images\icon.ico" />
+    <None Remove="pages\pagedownload\resource\pagedownloaddatapack.baml" />
+    <None Remove="pages\pagesetup\pagesetupsystem.baml" />
+    <None Remove="images\heads\wiki.png" />
+    <None Remove="images\skins\makena.png" />
+    <None Remove="pages\pagedownload\resource\pagedownloadpack.baml" />
+    <None Remove="application.baml" />
+    <None Remove="images\heads\logo.png" />
+    <None Remove="pages\pageinstance\pageinstanceleft.baml" />
+    <None Remove="images\blocks\redstoneblock.png" />
+    <None Remove="images\heads\00ll00.png" />
+    <None Remove="images\skins\alex.png" />
+    <None Remove="pages\pageinstance\pageinstancesetup.baml" />
+    <None Remove="pages\pagesetup\pagesetuplink.baml" />
+    <None Remove="pages\pagelink\pagelinkmain.baml" />
+    <None Remove="images\blocks\anvil.png" />
+    <None Remove="images\icons\disabled.png" />
+    <None Remove="images\blocks\cobblestone.png" />
+    <None Remove="controls\mymsg\mymsginput.baml" />
+    <None Remove="images\themes\12.png" />
+    <None Remove="images\themes\10.png" />
+    <None Remove="images\themes\13.png" />
+    <None Remove="images\themes\11.png" />
+    <None Remove="images\heads\hao_tian.jpg" />
+    <None Remove="pages\pageother\pageotherabout.baml" />
+    <None Remove="images\skins\efe.png" />
+    <None Remove="images\heads\herobrinexia.png" />
+    <None Remove="images\themes\42.png" />
+    <None Remove="images\skins\ari.png" />
+    <None Remove="controls\myradiobox.baml" />
+    <None Remove="pages\pagedownload\resource\pagedownloadshader.baml" />
+    <None Remove="controls\mymsg\mymsgselect.baml" />
+    <None Remove="pages\pagelaunch\pageloginnideskin.baml" />
+    <None Remove="images\heads\pcl2.png" />
+    <None Remove="pages\pageselectright.baml" />
+    <None Remove="pages\pagedownload\resource\pagedownloadmod.baml" />
+    <None Remove="images\skins\zuri.png" />
+    <None Remove="pages\pagelaunch\pageloginauth.baml" />
+    <None Remove="pages\pagedownload\pagedownloadleft.baml" />
+    <None Remove="pages\pagelaunch\mymsglogin.baml" />
+    <None Remove="pages\pagedownload\resource\pageresource.baml" />
+    <None Remove="pages\pagedownload\resource\pagedownloadresourcepack.baml" />
+    <None Remove="pages\pagelaunch\pageloginlegacy.baml" />
+    <None Remove="images\heads\z0z0r4.png" />
+    <None Remove="images\heads\patrick.png" />
+    <None Remove="pages\pagelaunch\pagelaunchright.baml" />
+    <EmbeddedResource Include="images\heads\ltcat.jpg" LogicalName="images/heads/ltcat.jpg" />
+    <EmbeddedResource Include="controls\mybutton.baml" LogicalName="controls/mybutton.baml" />
+    <EmbeddedResource Include="images\skins\kai.png" LogicalName="images/skins/kai.png" />
+    <EmbeddedResource Include="controls\mymsg\mymsgtext.baml" LogicalName="controls/mymsg/mymsgtext.baml" />
+    <EmbeddedResource Include="controls\mylistitem.baml" LogicalName="controls/mylistitem.baml" />
+    <EmbeddedResource Include="images\blocks\egg.png" LogicalName="images/blocks/egg.png" />
+    <EmbeddedResource Include="images\blocks\grasspath.png" LogicalName="images/blocks/grasspath.png" />
+    <EmbeddedResource Include="pages\pagespeedright.baml" LogicalName="pages/pagespeedright.baml" />
+    <EmbeddedResource Include="pages\pagelaunch\pageloginnide.baml" LogicalName="pages/pagelaunch/pageloginnide.baml" />
+    <EmbeddedResource Include="pages\pageinstance\pageinstancemod.baml" LogicalName="pages/pageinstance/pageinstancemod.baml" />
+    <EmbeddedResource Include="controls\myextrabutton.baml" LogicalName="controls/myextrabutton.baml" />
+    <EmbeddedResource Include="images\icons\noicon.png" LogicalName="images/icons/noicon.png" />
+    <EmbeddedResource Include="controls\myradiobutton.baml" LogicalName="controls/myradiobutton.baml" />
+    <EmbeddedResource Include="pages\pageother\pageotherhelp.baml" LogicalName="pages/pageother/pageotherhelp.baml" />
+    <EmbeddedResource Include="images\releasetypes\alpha.png" LogicalName="images/releasetypes/alpha.png" />
+    <EmbeddedResource Include="images\themes\6.png" LogicalName="images/themes/6.png" />
+    <EmbeddedResource Include="images\themes\7.png" LogicalName="images/themes/7.png" />
+    <EmbeddedResource Include="images\themes\5.png" LogicalName="images/themes/5.png" />
+    <EmbeddedResource Include="images\themes\8.png" LogicalName="images/themes/8.png" />
+    <EmbeddedResource Include="images\themes\9.png" LogicalName="images/themes/9.png" />
+    <EmbeddedResource Include="images\blocks\fabric.png" LogicalName="images/blocks/fabric.png" />
+    <EmbeddedResource Include="images\skins\steve.png" LogicalName="images/skins/steve.png" />
+    <EmbeddedResource Include="pages\pageother\pageothertest.baml" LogicalName="pages/pageother/pageothertest.baml" />
+    <EmbeddedResource Include="pages\pageinstance\pageinstanceoverall.baml" LogicalName="pages/pageinstance/pageinstanceoverall.baml" />
+    <EmbeddedResource Include="images\heads\mcbbs.png" LogicalName="images/heads/mcbbs.png" />
+    <EmbeddedResource Include="images\blocks\grass.png" LogicalName="images/blocks/grass.png" />
+    <EmbeddedResource Include="controls\myextratextbutton.baml" LogicalName="controls/myextratextbutton.baml" />
+    <EmbeddedResource Include="pages\pagelaunch\pageloginmsskin.baml" LogicalName="pages/pagelaunch/pageloginmsskin.baml" />
+    <EmbeddedResource Include="pages\pagelaunch\myskin.baml" LogicalName="pages/pagelaunch/myskin.baml" />
+    <EmbeddedResource Include="pages\pagesetup\pagesetupui.baml" LogicalName="pages/pagesetup/pagesetupui.baml" />
+    <EmbeddedResource Include="images\blocks\redstonelampoff.png" LogicalName="images/blocks/redstonelampoff.png" />
+    <EmbeddedResource Include="images\heads\bangbang93.png" LogicalName="images/heads/bangbang93.png" />
+    <EmbeddedResource Include="images\releasetypes\beta.png" LogicalName="images/releasetypes/beta.png" />
+    <EmbeddedResource Include="pages\pagesetup\pagesetupleft.baml" LogicalName="pages/pagesetup/pagesetupleft.baml" />
+    <EmbeddedResource Include="formmain.baml" LogicalName="formmain.baml" />
+    <EmbeddedResource Include="pages\pagedownload\resource\pagedownloadcompdetail.baml" LogicalName="pages/pagedownload/resource/pagedownloadcompdetail.baml" />
+    <EmbeddedResource Include="images\heads\easytier.png" LogicalName="images/heads/easytier.png" />
+    <EmbeddedResource Include="pages\pagedownload\pagedownloadinstall.baml" LogicalName="pages/pagedownload/pagedownloadinstall.baml" />
+    <EmbeddedResource Include="controls\mysearchbox.baml" LogicalName="controls/mysearchbox.baml" />
+    <EmbeddedResource Include="pages\pageinstance\mylocalmoditem.baml" LogicalName="pages/pageinstance/mylocalmoditem.baml" />
+    <EmbeddedResource Include="images\blocks\optifabric.png" LogicalName="images/blocks/optifabric.png" />
+    <EmbeddedResource Include="images\blocks\neoforge.png" LogicalName="images/blocks/neoforge.png" />
+    <EmbeddedResource Include="resources\font.ttf" LogicalName="resources/font.ttf" />
+    <EmbeddedResource Include="images\releasetypes\release.png" LogicalName="images/releasetypes/release.png" />
+    <EmbeddedResource Include="pages\pagelaunch\pagelaunchleft.baml" LogicalName="pages/pagelaunch/pagelaunchleft.baml" />
+    <EmbeddedResource Include="pages\pageother\pageotherleft.baml" LogicalName="pages/pageother/pageotherleft.baml" />
+    <EmbeddedResource Include="images\skins\sunny.png" LogicalName="images/skins/sunny.png" />
+    <EmbeddedResource Include="controls\myicontextbutton.baml" LogicalName="controls/myicontextbutton.baml" />
+    <EmbeddedResource Include="pages\pagelaunch\pageloginauthskin.baml" LogicalName="pages/pagelaunch/pageloginauthskin.baml" />
+    <EmbeddedResource Include="pages\pagesetup\pagesetuplaunch.baml" LogicalName="pages/pagesetup/pagesetuplaunch.baml" />
+    <EmbeddedResource Include="pages\pageinstance\pageinstancemoddisabled.baml" LogicalName="pages/pageinstance/pageinstancemoddisabled.baml" />
+    <EmbeddedResource Include="pages\pagespeedleft.baml" LogicalName="pages/pagespeedleft.baml" />
+    <EmbeddedResource Include="controls\myhint.baml" LogicalName="controls/myhint.baml" />
+    <EmbeddedResource Include="controls\mycheckbox.baml" LogicalName="controls/mycheckbox.baml" />
+    <EmbeddedResource Include="pages\pageinstance\pageinstanceexport.baml" LogicalName="pages/pageinstance/pageinstanceexport.baml" />
+    <EmbeddedResource Include="controls\myiconbutton.baml" LogicalName="controls/myiconbutton.baml" />
+    <EmbeddedResource Include="images\blocks\redstonelampon.png" LogicalName="images/blocks/redstonelampon.png" />
+    <EmbeddedResource Include="pages\pageselectleft.baml" LogicalName="pages/pageselectleft.baml" />
+    <EmbeddedResource Include="images\blocks\commandblock.png" LogicalName="images/blocks/commandblock.png" />
+    <EmbeddedResource Include="controls\myslider.baml" LogicalName="controls/myslider.baml" />
+    <EmbeddedResource Include="pages\pageother\pageotherhelpdetail.baml" LogicalName="pages/pageother/pageotherhelpdetail.baml" />
+    <EmbeddedResource Include="pages\pagelaunch\pageloginms.baml" LogicalName="pages/pagelaunch/pageloginms.baml" />
+    <EmbeddedResource Include="images\skins\noor.png" LogicalName="images/skins/noor.png" />
+    <EmbeddedResource Include="images\heads\chongqing.png" LogicalName="images/heads/chongqing.png" />
+    <EmbeddedResource Include="images\blocks\goldblock.png" LogicalName="images/blocks/goldblock.png" />
+    <EmbeddedResource Include="controls\myloading.baml" LogicalName="controls/myloading.baml" />
+    <EmbeddedResource Include="pages\pagedownload\resource\myresourceitem.baml" LogicalName="pages/pagedownload/resource/myresourceitem.baml" />
+    <EmbeddedResource Include="images\icon.ico" LogicalName="images/icon.ico" />
+    <EmbeddedResource Include="pages\pagedownload\resource\pagedownloaddatapack.baml" LogicalName="pages/pagedownload/resource/pagedownloaddatapack.baml" />
+    <EmbeddedResource Include="pages\pagesetup\pagesetupsystem.baml" LogicalName="pages/pagesetup/pagesetupsystem.baml" />
+    <EmbeddedResource Include="images\heads\wiki.png" LogicalName="images/heads/wiki.png" />
+    <EmbeddedResource Include="images\skins\makena.png" LogicalName="images/skins/makena.png" />
+    <EmbeddedResource Include="pages\pagedownload\resource\pagedownloadpack.baml" LogicalName="pages/pagedownload/resource/pagedownloadpack.baml" />
+    <EmbeddedResource Include="application.baml" LogicalName="application.baml" />
+    <EmbeddedResource Include="images\heads\logo.png" LogicalName="images/heads/logo.png" />
+    <EmbeddedResource Include="pages\pageinstance\pageinstanceleft.baml" LogicalName="pages/pageinstance/pageinstanceleft.baml" />
+    <EmbeddedResource Include="images\blocks\redstoneblock.png" LogicalName="images/blocks/redstoneblock.png" />
+    <EmbeddedResource Include="images\heads\00ll00.png" LogicalName="images/heads/00ll00.png" />
+    <EmbeddedResource Include="images\skins\alex.png" LogicalName="images/skins/alex.png" />
+    <EmbeddedResource Include="pages\pageinstance\pageinstancesetup.baml" LogicalName="pages/pageinstance/pageinstancesetup.baml" />
+    <EmbeddedResource Include="pages\pagesetup\pagesetuplink.baml" LogicalName="pages/pagesetup/pagesetuplink.baml" />
+    <EmbeddedResource Include="pages\pagelink\pagelinkmain.baml" LogicalName="pages/pagelink/pagelinkmain.baml" />
+    <EmbeddedResource Include="images\blocks\anvil.png" LogicalName="images/blocks/anvil.png" />
+    <EmbeddedResource Include="images\icons\disabled.png" LogicalName="images/icons/disabled.png" />
+    <EmbeddedResource Include="images\blocks\cobblestone.png" LogicalName="images/blocks/cobblestone.png" />
+    <EmbeddedResource Include="controls\mymsg\mymsginput.baml" LogicalName="controls/mymsg/mymsginput.baml" />
+    <EmbeddedResource Include="images\themes\12.png" LogicalName="images/themes/12.png" />
+    <EmbeddedResource Include="images\themes\10.png" LogicalName="images/themes/10.png" />
+    <EmbeddedResource Include="images\themes\13.png" LogicalName="images/themes/13.png" />
+    <EmbeddedResource Include="images\themes\11.png" LogicalName="images/themes/11.png" />
+    <EmbeddedResource Include="images\heads\hao_tian.jpg" LogicalName="images/heads/hao_tian.jpg" />
+    <EmbeddedResource Include="pages\pageother\pageotherabout.baml" LogicalName="pages/pageother/pageotherabout.baml" />
+    <EmbeddedResource Include="images\skins\efe.png" LogicalName="images/skins/efe.png" />
+    <EmbeddedResource Include="images\heads\herobrinexia.png" LogicalName="images/heads/herobrinexia.png" />
+    <EmbeddedResource Include="images\themes\42.png" LogicalName="images/themes/42.png" />
+    <EmbeddedResource Include="images\skins\ari.png" LogicalName="images/skins/ari.png" />
+    <EmbeddedResource Include="controls\myradiobox.baml" LogicalName="controls/myradiobox.baml" />
+    <EmbeddedResource Include="pages\pagedownload\resource\pagedownloadshader.baml" LogicalName="pages/pagedownload/resource/pagedownloadshader.baml" />
+    <EmbeddedResource Include="controls\mymsg\mymsgselect.baml" LogicalName="controls/mymsg/mymsgselect.baml" />
+    <EmbeddedResource Include="pages\pagelaunch\pageloginnideskin.baml" LogicalName="pages/pagelaunch/pageloginnideskin.baml" />
+    <EmbeddedResource Include="images\heads\pcl2.png" LogicalName="images/heads/pcl2.png" />
+    <EmbeddedResource Include="pages\pageselectright.baml" LogicalName="pages/pageselectright.baml" />
+    <EmbeddedResource Include="pages\pagedownload\resource\pagedownloadmod.baml" LogicalName="pages/pagedownload/resource/pagedownloadmod.baml" />
+    <EmbeddedResource Include="images\skins\zuri.png" LogicalName="images/skins/zuri.png" />
+    <EmbeddedResource Include="pages\pagelaunch\pageloginauth.baml" LogicalName="pages/pagelaunch/pageloginauth.baml" />
+    <EmbeddedResource Include="pages\pagedownload\pagedownloadleft.baml" LogicalName="pages/pagedownload/pagedownloadleft.baml" />
+    <EmbeddedResource Include="pages\pagelaunch\mymsglogin.baml" LogicalName="pages/pagelaunch/mymsglogin.baml" />
+    <EmbeddedResource Include="pages\pagedownload\resource\pageresource.baml" LogicalName="pages/pagedownload/resource/pageresource.baml" />
+    <EmbeddedResource Include="pages\pagedownload\resource\pagedownloadresourcepack.baml" LogicalName="pages/pagedownload/resource/pagedownloadresourcepack.baml" />
+    <EmbeddedResource Include="pages\pagelaunch\pageloginlegacy.baml" LogicalName="pages/pagelaunch/pageloginlegacy.baml" />
+    <EmbeddedResource Include="images\heads\z0z0r4.png" LogicalName="images/heads/z0z0r4.png" />
+    <EmbeddedResource Include="images\heads\patrick.png" LogicalName="images/heads/patrick.png" />
+    <EmbeddedResource Include="pages\pagelaunch\pagelaunchright.baml" LogicalName="pages/pagelaunch/pagelaunchright.baml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="System.Core" />
+    <Reference Include="MeloongCore" />
+    <Reference Include="Newtonsoft.Json" />
+    <Reference Include="PCLCS" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="NAudio" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="ThrottleDebounce" />
+    <Reference Include="MeloongCore.Wpf" />
+    <Reference Include="CacheCow.Client.FileStore" />
+    <Reference Include="CacheCow.Client" />
+    <Reference Include="CacheCow.Common" />
+    <Reference Include="Imazen.WebP" />
+  </ItemGroup>
+</Project>

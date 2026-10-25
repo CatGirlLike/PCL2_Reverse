@@ -1,2 +1,5 @@
-# PCL2_Reverse
-PCL2的逆向改编版,完全是vibe coding,烂的一批,别看
+# PCL2 ME
+PCL2 ME 是一个VIBE CODING工程
+```cmd
+#如果你需要此仓库,请执行:
+git clone https://github.com/CatGirlLike/PCL2_Reverse
